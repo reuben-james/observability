@@ -1,0 +1,10 @@
+---
+# Install the prometheus collection
+collections:
+- prometheus.prometheus
+
+# Install just the node_exporter role
+roles:
+- src: https://github.com/geerlingguy/ansible-role-node_exporter.git
+  version: master
+  name: node_exporter
