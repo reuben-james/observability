@@ -53,6 +53,7 @@ This deployment configures grafana to look in a local directory for dashboards, 
 
 You can manually develop Dashboards in the Grafana UI, then export the JSON to be saved to this folder to keep your dashboard definitions in code. 
 
+Props to this article that hlped me getting the Config as Code working: `https://keepgrowing.in/tools/grafana-provisioning-how-to-configure-data-sources-and-dashboards/` 
 
 ## Run Prometheus and Grafana
 
